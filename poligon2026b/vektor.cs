@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace poligon2026b
 {
-    class Program
+    class vektor
     {
-        static void Main(string[] args)
-        {
-           
-        }
     }
 }
