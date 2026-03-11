@@ -10,6 +10,8 @@ namespace poligon2026b
     {
         static void Main(string[] args)
         {
+            //Milica Milovanovic
+            Console.WriteLine("Pozdrav za razrednog");
         }
     }
 }
