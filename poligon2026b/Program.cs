@@ -10,7 +10,16 @@ namespace poligon2026b
     {
         static void Main(string[] args)
         {
-           
+            /*poligon prvi = poligon.Unos();
+            prvi.Stampa();*/
+
+            /*poligon prvi = poligon.Unos();
+            prvi.Stampa();
+            prvi.Snimi();*/
+
+            poligon drugi = poligon.Ucitaj();
+            drugi.Stampa();
+            Console.ReadKey();
         }
     }
 }
