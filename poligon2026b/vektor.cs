@@ -43,7 +43,7 @@ namespace poligon2026b
             tacka druga = this.centriraj();
             return druga.d();
         }
-        public bool Sece(vektor b)
+        public bool sece(vektor b)
         {
 
             int x = ravan.SIS(this, b.pocetak, b.kraj);
