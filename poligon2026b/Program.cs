@@ -17,8 +17,11 @@ namespace poligon2026b
             prvi.Stampa();
             prvi.Snimi();*/
 
-            poligon drugi = poligon.Ucitaj();
-            drugi.Stampa();
+            /*poligon drugi = poligon.Ucitaj();
+            drugi.Stampa();*/
+
+            poligon prvi = poligon.Unos();
+            Console.WriteLine(prvi.konveksan());
             
         }
     }
