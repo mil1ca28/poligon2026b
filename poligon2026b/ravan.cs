@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace poligon2026b
+{
+    class ravan
+    {
+        public static int SIS(vektor a, tacka B, tacka C)
+        {
+
+            vektor AB = new vektor(a.pocetak, B);
+            vektor AC = new vektor(a.pocetak, C);
+            double aAB = vektor.VP(a, AB);
+            double aAC = vektor.VP(a, AC);
+            if (aAC * aAB > 0) return 0;
+            if (aAC * aAB < 0) return -1;
+            return 1;
+        }
+    }
+}

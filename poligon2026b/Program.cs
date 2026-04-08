@@ -19,7 +19,7 @@ namespace poligon2026b
 
             poligon drugi = poligon.Ucitaj();
             drugi.Stampa();
-            Console.ReadKey();
+            
         }
     }
 }

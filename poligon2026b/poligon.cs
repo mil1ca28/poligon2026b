@@ -65,5 +65,19 @@ namespace poligon2026b
             ulaz.Close();
             return novi;
         }
+        public double obim()
+        {
+            vektor a;
+            double obim = 0;
+            for (int i = 0; i < br_temena - 1; i++)
+            {
+                a = new vektor(teme[i], teme[i + 1]);
+                obim += a.duzina();
+            }
+            a = new vektor(teme[br_temena - 1], teme[0]);
+            obim += a.duzina();
+            return obim;
+        }
+      
     }
 }
